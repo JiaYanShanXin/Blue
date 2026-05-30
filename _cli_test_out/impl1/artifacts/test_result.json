@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "total": 0,
+    "passed": 0,
+    "failed": 0,
+    "errors": 0,
+    "status": "FAILED"
+  },
+  "files": [
+    "test_hello_cli.py"
+  ],
+  "raw_output": "[PASS] discover (test_hello_cli.py)"
+}

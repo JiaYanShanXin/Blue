@@ -1,0 +1,78 @@
+/* ============================================
+   OurAI 全局样式
+   ============================================ */
+
+/* 全局重置和基础样式 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #1a1a2e;
+  background-color: #e8f4f6;
+  line-height: 1.6;
+}
+
+/* 按钮基础样式 */
+button {
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 0.875rem;
+  border: none;
+  border-radius: 6px;
+  transition: all 0.15s ease;
+}
+
+button.primary {
+  background: linear-gradient(135deg, #5fb3c4 0%, #7ec8d9 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+button.primary:hover {
+  background: linear-gradient(135deg, #4aa3b5 0%, #6bb3a8 100%);
+}
+
+button.secondary {
+  background-color: #e2eff1;
+  color: #4aa3b5;
+  padding: 0.5rem 1rem;
+}
+
+button.secondary:hover {
+  background-color: #c5eff6;
+}
+
+button.danger {
+  background: linear-gradient(135deg, #a8c5a0 0%, #c9d99e 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+button.danger:hover {
+  background: linear-gradient(135deg, #9ab094 0%, #b8c9a6 100%);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* 输入框基础样式 */
+input, textarea, select {
+  font-family: inherit;
+  font-size: 0.875rem;
+  border: 1px solid #c5eff6;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #5fb3c4;
+  box-shadow: 0 0 0 2px rgba(95, 179, 196, 0.15);
+}

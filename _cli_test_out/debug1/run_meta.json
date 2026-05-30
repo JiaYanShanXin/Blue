@@ -1,0 +1,20 @@
+{
+  "task": "debug",
+  "lang": "python",
+  "thread_id": "2ece30fa-3a11-4981-bd4b-2ceb3322a727",
+  "input_path": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\workspace\\bug_sample.md",
+  "output_dir": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1",
+  "status": "success",
+  "started_at": "2026-05-14T12:21:21.941613",
+  "finished_at": "2026-05-14T12:21:41.550807",
+  "max_retries": 3,
+  "max_coder_steps": 15,
+  "exception": "",
+  "artifacts": {
+    "events": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1\\events.jsonl",
+    "final_state": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1\\final_state.json",
+    "report": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1\\report.md",
+    "input_snapshot": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1\\input_snapshot.txt",
+    "test_result": "C:\\Users\\ChenMeiWang\\Downloads\\project_20260503_214111\\projects\\nanoCursor-main\\_cli_test_out\\debug1\\artifacts\\test_result.json"
+  }
+}
